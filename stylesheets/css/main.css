@@ -1,3 +1,75 @@
+/*--- Ratio ---*/
+/*--- Color Palette ---*/
+/*--- Skills USA Logo ---*/
+/*--- Skills USA Oregon Logo ---*/
+/*--- icons ---*/
+@font-face {
+  font-family: 'Century-bold';
+  src: url("../../fonts/Century/CenturyGothic-Bold.eot");
+  src: url("../../fonts/Century/CenturyGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Century/CenturyGothic-Bold.woff") format("woff"), url("../../fonts/Century/CenturyGothic-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Century';
+  src: url("CenturyGothic.eot");
+  src: url("../../fonts/Century/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Century/CenturyGothic.woff") format("woff"), url("../../fonts/Century/CenturyGothic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+html, body {
+  padding: 0px;
+  margin: auto;
+  background: #f0f0f0; }
 
+/*>>> Global Header & Navigation <<<*/
+nav {
+  background: #FFF;
+  height: 90px; }
+
+#nav-container {
+  max-width: 1000px;
+  padding: 0px 5%;
+  width: auto;
+  margin: auto; }
+  #nav-container:hover {
+    cursor: pointer; }
+
+/*-- Logo --*/
+#logo {
+  float: left;
+  padding: 0px;
+  margin: auto;
+  display: inline-block;
+  height: 90px; }
+
+#logo img {
+  height: 70px;
+  margin-top: 10px;
+  float: left; }
+
+#mobile-nav {
+  display: none;
+  height: 50px;
+  width: 50px;
+  float: right;
+  margin-top: 22.5px; }
+
+nav ul {
+  float: right;
+  line-height: 90px; }
+
+nav ul li {
+  display: inline-block; }
+
+nav ul li a {
+  text-decoration: none;
+  color: #2d2d2d;
+  font-size: 13px;
+  margin-right: 20px;
+  font-family: "Century", sans-serif;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out; }
+  nav ul li a:hover {
+    color: #cd3640; }
 
 /*# sourceMappingURL=main.css.map */

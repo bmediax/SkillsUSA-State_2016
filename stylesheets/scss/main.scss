@@ -1,0 +1,73 @@
+@import 'functions';
+
+html, body {
+    padding:0px;
+    margin:auto;
+    background:$white;
+}
+
+/*>>> Global Header & Navigation <<<*/
+
+nav {
+    background:#FFF;
+    height:$desktop-nav;
+}
+
+#nav-container {
+    max-width:$desktop-width;
+    padding:0px 5%;
+    width:auto;
+    margin:auto;
+
+    &:hover {
+        cursor:pointer;
+    }
+}
+
+/*-- Logo --*/
+
+#logo {
+    float:left;
+    padding:0px;
+    margin:auto;
+    display:inline-block;
+    height:$desktop-nav;
+}
+
+#logo img {
+    height:70px;
+    margin-top:10px;
+    float:left;
+}
+
+#mobile-nav {
+    display:none;
+    height:50px;
+    width:50px;
+    float:right;
+    margin-top:$desktop-nav/4;
+}
+
+nav ul {
+    float:right;
+    line-height:$desktop-nav;
+}
+
+nav ul li {
+    display:inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:$black;
+    font-size:13px;
+    margin-right:20px;
+    font-family:"Century", sans-serif;
+    -webkit-transition:all 0.1s ease-in-out;
+    -moz-transition:all 0.1s ease-in-out;
+    -o-transition:all 0.1s ease-in-out;
+
+    &:hover {
+        color:$red;
+    }
+}

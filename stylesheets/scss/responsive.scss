@@ -1,0 +1,31 @@
+@import 'functions';
+
+@media all and (max-width:805px) {
+    #mobile-nav {
+        display:block !important;
+    }
+
+    nav ul {
+        display:none;
+        float:none;
+        clear:both;
+    }
+
+    nav ul li {
+        display:block;
+    }
+
+    nav ul li a {
+        display:block;
+        width:100%;
+        background:$black;
+        text-align: center;
+        padding:1px 0px;
+        color:$gray;
+
+        &:hover {
+            color:#FFF;
+            background:$red;
+        }
+    }
+}
