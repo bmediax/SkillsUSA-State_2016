@@ -177,14 +177,118 @@ nav ul li a {
 /*>>> #Skills USA <<<*/
 #skillsusa-sm {
   background: #cd3640;
-  height: 200px;
-  width: 100%; }
+  height: 100px;
+  width: 100%;
+  padding: 3% 0px; }
 
 #skillsusa-sm p {
   color: #FFF;
   font-family: "Century-bold", sans-serif;
   font-size: 45px;
   text-align: center;
-  line-height: 200px; }
+  line-height: 100px; }
+
+/*>>> Global Footer <<<*/
+footer {
+  background: #00538d;
+  height: 150px;
+  padding: 6% 0px;
+  position: relative; }
+
+footer #copyright {
+  color: #00355a;
+  font-family: "century-bold", sans-serif;
+  font-size: 16px;
+  line-height: 150px;
+  margin-left: 5%;
+  float: left; }
+
+footer #champs-btm {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #FFF;
+  background: transparent;
+  border: 2px solid #FFF;
+  padding: 20px 0px;
+  width: 400px;
+  font-family: "circular-bold", sans-serif;
+  text-decoration: none;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  left: 0;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out; }
+  footer #champs-btm:hover {
+    color: #00538d;
+    background: #FFF; }
+
+footer #social-media {
+  float: right;
+  line-height: 150px;
+  margin-right: 5%; }
+
+footer #social-media a {
+  color: #00355a;
+  font-family: "Century-bold", sans-serif;
+  text-decoration: none;
+  margin-right: 30px; }
+  footer #social-media a:hover {
+    color: #FFF; }
+
+footer #social-media a:last-child {
+  margin-right: 0px !important; }
+
+/*>>> Competitions <<<*/
+#intro-competitions {
+  background: #FFF;
+  height: auto;
+  padding: 5% 0px; }
+
+#intro-competitions_wrapper {
+  max-width: 900px;
+  padding: 0px 5%;
+  height: auto;
+  margin: auto; }
+
+#intro-competitions_wrapper h1 {
+  text-align: center;
+  font-family: "Century-bold", sans-serif;
+  color: #2d2d2d;
+  font-size: 30px;
+  padding-bottom: 3%; }
+
+#intro-competitions_wrapper p {
+  font-family: "circular", sans-serif;
+  text-align: center;
+  color: #a9acb6;
+  font-size: 14px;
+  line-height: 20px; }
+
+#competitions-section {
+  padding-top: 30px; }
+
+.compete-box {
+  height: 150px;
+  width: 285px;
+  margin-right: 12px;
+  background: #2d2d2d;
+  display: inline-block;
+  margin-bottom: 12px; }
+
+.compete-box p {
+  font-family: "Century-bold", sans-serif !important;
+  text-align: center;
+  font-size: 16px !important;
+  padding: 0px;
+  margin: auto;
+  color: #FFF !important;
+  line-height: 150px !important; }
+
+.compete-box:last-child {
+  margin-right: 0px !important; }
 
 /*# sourceMappingURL=main.css.map */
