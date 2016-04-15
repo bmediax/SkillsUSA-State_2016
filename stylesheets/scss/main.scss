@@ -42,10 +42,10 @@ nav {
 
 #mobile-nav {
     display:none;
-    height:50px;
-    width:50px;
+    height:35px;
+    width:35px;
     float:right;
-    margin-top:$desktop-nav/4;
+    margin-top:$desktop-nav/3;
 }
 
 nav ul {
@@ -147,7 +147,7 @@ nav ul li a {
     border:2px solid $gray;
     text-decoration: none;
     -webkit-transition:all 0.2s ease-in-out;
-    
+
     &:hover {
         border:2px solid $blue;
         color:#FFF;
@@ -227,7 +227,7 @@ footer #champs-btm {
     -webkit-transition:all 0.1s ease-in-out;
     -moz-transition:all 0.1s ease-in-out;
     -o-transition:all 0.1s ease-in-out;
-    
+
     &:hover {
         color:$blue;
         background:#FFF;
@@ -245,7 +245,7 @@ footer #social-media a {
     font-family:"Century-bold", sans-serif;
     text-decoration: none;
     margin-right:30px;
-    
+
     &:hover {
         color:#FFF;
     }
