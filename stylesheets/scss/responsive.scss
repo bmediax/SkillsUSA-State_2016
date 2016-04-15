@@ -28,4 +28,26 @@
             background:$red;
         }
     }
+
+    #intro {
+        padding-bottom:20%
+    }
+
+    #intro-skillsusa {
+        padding-top:2%;
+    }
+
+    #scroll-down {display:none}
+}
+
+@media all and (min-width:805px) {
+    nav ul {
+        display:block !important;
+    }
+}
+
+@media all and (max-width:400px) {
+    #intro {
+        padding-bottom:5%
+    }
 }

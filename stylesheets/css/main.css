@@ -2,13 +2,17 @@
 /*--- Color Palette ---*/
 /*--- Skills USA Logo ---*/
 /*--- Skills USA Oregon Logo ---*/
+/*--- Skills USA White Logo ---*/
 /*--- icons ---*/
+/*--- Font Faces: Century, Century Gothic ---*/
+/*--- Century Bold ---*/
 @font-face {
   font-family: 'Century-bold';
   src: url("../../fonts/Century/CenturyGothic-Bold.eot");
   src: url("../../fonts/Century/CenturyGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Century/CenturyGothic-Bold.woff") format("woff"), url("../../fonts/Century/CenturyGothic-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
+/*--- Century ---*/
 @font-face {
   font-family: 'Century';
   src: url("CenturyGothic.eot");
@@ -54,6 +58,7 @@ nav {
   margin-top: 22.5px; }
 
 nav ul {
+  position: relative;
   float: right;
   line-height: 90px; }
 
@@ -61,6 +66,7 @@ nav ul li {
   display: inline-block; }
 
 nav ul li a {
+  z-index: 1000;
   text-decoration: none;
   color: #2d2d2d;
   font-size: 13px;
@@ -71,5 +77,27 @@ nav ul li a {
   -o-transition: all 0.1s ease-in-out; }
   nav ul li a:hover {
     color: #cd3640; }
+
+/*>>> Intro Splash <<<*/
+#intro {
+  width: 100%;
+  height: 200px;
+  background: url(../../assets/imgs/Skills_BG.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 30%; }
+
+#intro-skillsusa {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  display: block; }
+
+#scroll-down {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 150px;
+  padding: 2% 0px; }
 
 /*# sourceMappingURL=main.css.map */

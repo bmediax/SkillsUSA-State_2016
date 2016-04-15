@@ -14,12 +14,18 @@ $skillsusa_svg: url(../../assets/icons/skillsusa.svg);
 $skillsusa_png: url(../../assets/icons/skillsusa.png);
 
 /*--- Skills USA Oregon Logo ---*/
-$skillsusa-oregon_svg: url(../../icons/icons/skillsusa-oregon_svg.svg);
-$skillsusa-oregon_png: url(../../icons/icons/skillsusa-oregon.png);
+$skillsusa-oregon_svg: url(../../assets/icons/skillsusa-oregon_svg.svg);
+$skillsusa-oregon_png: url(../../assets/icons/skillsusa-oregon.png);
+
+/*--- Skills USA White Logo ---*/
+$skillsusa-white_svg: url(../../assets/icons/skillsusa-white.svg);
 
 /*--- icons ---*/
 $menu-icon: url(../../assets/icons/menu.svg);
 
+/*--- Font Faces: Century, Century Gothic ---*/
+
+/*--- Century Bold ---*/
 @font-face {
 	font-family: 'Century-bold';
 	src: url('../../fonts/Century/CenturyGothic-Bold.eot');
@@ -30,6 +36,7 @@ $menu-icon: url(../../assets/icons/menu.svg);
 	font-style: normal;
 }
 
+/*--- Century ---*/
 @font-face {
 	font-family: 'Century';
 	src: url('CenturyGothic.eot');

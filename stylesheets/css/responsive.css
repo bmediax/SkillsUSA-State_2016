@@ -2,13 +2,17 @@
 /*--- Color Palette ---*/
 /*--- Skills USA Logo ---*/
 /*--- Skills USA Oregon Logo ---*/
+/*--- Skills USA White Logo ---*/
 /*--- icons ---*/
+/*--- Font Faces: Century, Century Gothic ---*/
+/*--- Century Bold ---*/
 @font-face {
   font-family: 'Century-bold';
   src: url("../../fonts/Century/CenturyGothic-Bold.eot");
   src: url("../../fonts/Century/CenturyGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Century/CenturyGothic-Bold.woff") format("woff"), url("../../fonts/Century/CenturyGothic-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
+/*--- Century ---*/
 @font-face {
   font-family: 'Century';
   src: url("CenturyGothic.eot");
@@ -36,6 +40,21 @@
     color: #a9acb6; }
     nav ul li a:hover {
       color: #FFF;
-      background: #cd3640; } }
+      background: #cd3640; }
+
+  #intro {
+    padding-bottom: 20%; }
+
+  #intro-skillsusa {
+    padding-top: 2%; }
+
+  #scroll-down {
+    display: none; } }
+@media all and (min-width: 805px) {
+  nav ul {
+    display: block !important; } }
+@media all and (max-width: 400px) {
+  #intro {
+    padding-bottom: 5%; } }
 
 /*# sourceMappingURL=responsive.css.map */
