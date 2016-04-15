@@ -19,6 +19,20 @@
   src: url("../../fonts/Century/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Century/CenturyGothic.woff") format("woff"), url("../../fonts/Century/CenturyGothic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+/*--- Circular ---*/
+@font-face {
+  font-family: 'Circular';
+  src: url("../../fonts/Circular/CircularStd-Book.eot");
+  src: url("../../fonts/Circular/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../../fonts/Circular/CircularStd-Book.woff") format("woff"), url("../../fonts/Circular/CircularStd-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*--- Circular Bold ---*/
+@font-face {
+  font-family: 'Circular-bold';
+  src: url("../../fonts/Circular/CircularStd-Bold.eot");
+  src: url("../../fonts/Circular/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Circular/CircularStd-Bold.woff") format("woff"), url("../../fonts/Circular/CircularStd-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
 html, body {
   padding: 0px;
   margin: auto;
@@ -30,7 +44,6 @@ nav {
   height: 90px; }
 
 #nav-container {
-  max-width: 1000px;
   padding: 0px 5%;
   width: auto;
   margin: auto; }
@@ -102,8 +115,7 @@ nav ul li a {
 
 /*>>> Intro About <<<*/
 .intro-about {
-  height: 200px;
-  background: #00538d;
+  height: 221px;
   padding: 5% 0px; }
 
 /* First Image */
@@ -119,18 +131,45 @@ nav ul li a {
 .intro-about_info {
   background: #FFF; }
 
-#intro-about_left {
+.intro-about_info h1 {
+  font-family: "Century-bold", sans-serif;
+  font-size: 22px;
+  color: #2d2d2d;
+  padding-bottom: 15px; }
+
+.intro-about_info p {
+  font-family: "Circular", sans-serif;
+  line-height: 30px;
+  font-size: 14px;
+  color: #a9acb6;
+  font-weight: 100;
+  padding-bottom: 35px; }
+
+.intro-about_info a {
+  color: #a9acb6;
+  font-family: "Circular-bold", sans-serif;
+  font-size: 14px;
+  padding: 10px 30px;
+  border: 2px solid #a9acb6;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out; }
+  .intro-about_info a:hover {
+    border: 2px solid #00538d;
+    color: #FFF;
+    background: #00538d; }
+
+.intro-about_left {
   float: left;
   width: 40%;
-  height: 200px;
+  min-height: 221px;
   display: block;
   padding: 5%;
   margin-top: -5%; }
 
-#intro-about_right {
+.intro-about_right {
   float: right;
   width: 40%;
-  height: 200px;
+  min-height: 221px;
   display: block;
   padding: 5%;
   margin-top: -5%; }

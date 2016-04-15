@@ -19,6 +19,45 @@
   src: url("../../fonts/Century/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Century/CenturyGothic.woff") format("woff"), url("../../fonts/Century/CenturyGothic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+/*--- Circular ---*/
+@font-face {
+  font-family: 'Circular';
+  src: url("../../fonts/Circular/CircularStd-Book.eot");
+  src: url("../../fonts/Circular/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../../fonts/Circular/CircularStd-Book.woff") format("woff"), url("../../fonts/Circular/CircularStd-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*--- Circular Bold ---*/
+@font-face {
+  font-family: 'Circular-bold';
+  src: url("../../fonts/Circular/CircularStd-Bold.eot");
+  src: url("../../fonts/Circular/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Circular/CircularStd-Bold.woff") format("woff"), url("../../fonts/Circular/CircularStd-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@media all and (max-width: 1277px) {
+  .intro-about_info p {
+    font-size: 12px;
+    line-height: 24px; }
+
+  .intro-about_left, .intro-about_right {
+    padding: 4% !important;
+    width: 42%; }
+
+  .intro-about {
+    height: 200px; } }
+@media all and (max-width: 827px) {
+  .intro-about_left, .intro-about_right {
+    display: block;
+    padding: 6% 5% !important;
+    clear: both;
+    width: auto;
+    min-height: 171px;
+    float: none; }
+
+  .intro-about_img {
+    margin-top: 0px; }
+
+  .intro-about {
+    height: 400px !important; } }
 @media all and (max-width: 805px) {
   #mobile-nav {
     display: block !important; }
@@ -55,6 +94,12 @@
     display: block !important; } }
 @media all and (max-width: 400px) {
   #intro {
-    padding-bottom: 5%; } }
+    padding-bottom: 5%; }
+
+  .intro-about_left, .intro-about_right {
+    padding: 13% 5% !important; }
+
+  #intro-picture-2 {
+    margin-top: 120px; } }
 
 /*# sourceMappingURL=responsive.css.map */

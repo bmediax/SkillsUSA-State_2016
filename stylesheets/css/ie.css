@@ -19,5 +19,19 @@
   src: url("../../fonts/Century/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Century/CenturyGothic.woff") format("woff"), url("../../fonts/Century/CenturyGothic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+/*--- Circular ---*/
+@font-face {
+  font-family: 'Circular';
+  src: url("../../fonts/Circular/CircularStd-Book.eot");
+  src: url("../../fonts/Circular/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../../fonts/Circular/CircularStd-Book.woff") format("woff"), url("../../fonts/Circular/CircularStd-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*--- Circular Bold ---*/
+@font-face {
+  font-family: 'Circular-bold';
+  src: url("../../fonts/Circular/CircularStd-Bold.eot");
+  src: url("../../fonts/Circular/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Circular/CircularStd-Bold.woff") format("woff"), url("../../fonts/Circular/CircularStd-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
 
 /*# sourceMappingURL=ie.css.map */

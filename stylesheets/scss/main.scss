@@ -14,7 +14,7 @@ nav {
 }
 
 #nav-container {
-    max-width:$desktop-width;
+//    max-width:$desktop-width;
     padding:0px 5%;
     width:auto;
     margin:auto;
@@ -104,7 +104,6 @@ nav ul li a {
 
 .intro-about {
     height:$intro-about;
-    background:$blue;
     padding:$intro-height 0px;
 }
 
@@ -124,19 +123,51 @@ nav ul li a {
     background:#FFF;
 }
 
-#intro-about_left {
+.intro-about_info h1 {
+    font-family:"Century-bold", sans-serif;
+    font-size:22px;
+    color:$black;
+    padding-bottom:15px;
+}
+
+.intro-about_info p {
+    font-family: "Circular", sans-serif;
+    line-height:30px;
+    font-size:14px;
+    color:$gray;
+    font-weight:100;
+    padding-bottom:35px;
+}
+
+.intro-about_info a {
+    color:$gray;
+    font-family: "Circular-bold", sans-serif;
+    font-size:14px;
+    padding:10px 30px;
+    border:2px solid $gray;
+    text-decoration: none;
+    -webkit-transition:all 0.2s ease-in-out;
+    
+    &:hover {
+        border:2px solid $blue;
+        color:#FFF;
+        background:$blue;
+    }
+}
+
+.intro-about_left {
     float:left;
     width:$intro-width;
-    height:$intro-about;
+    min-height:$intro-about;
     display: block;
     padding:$intro-height;
     margin-top:-$intro-height;
 }
 
-#intro-about_right {
+.intro-about_right {
     float:right;
     width:$intro-width;
-    height:$intro-about;
+    min-height:$intro-about;
     display: block;
     padding:$intro-height;
     margin-top:-$intro-height;
