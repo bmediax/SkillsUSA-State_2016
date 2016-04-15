@@ -174,4 +174,17 @@ nav ul li a {
   padding: 5%;
   margin-top: -5%; }
 
+/*>>> #Skills USA <<<*/
+#skillsusa-sm {
+  background: #cd3640;
+  height: 200px;
+  width: 100%; }
+
+#skillsusa-sm p {
+  color: #FFF;
+  font-family: "Century-bold", sans-serif;
+  font-size: 45px;
+  text-align: center;
+  line-height: 200px; }
+
 /*# sourceMappingURL=main.css.map */
