@@ -100,4 +100,39 @@ nav ul li a {
   max-width: 150px;
   padding: 2% 0px; }
 
+/*>>> Intro About <<<*/
+.intro-about {
+  height: 200px;
+  background: #00538d;
+  padding: 5% 0px; }
+
+/* First Image */
+.intro-about_img:nth-child(1) {
+  background: url(../../assets/imgs/student-manufacturing.jpg);
+  background-size: cover; }
+
+/* Second Image */
+.intro-about_img:nth-child(2) {
+  background: url(../../assets/imgs/student-dental.jpg);
+  background-size: cover; }
+
+.intro-about_info {
+  background: #FFF; }
+
+#intro-about_left {
+  float: left;
+  width: 40%;
+  height: 200px;
+  display: block;
+  padding: 5%;
+  margin-top: -5%; }
+
+#intro-about_right {
+  float: right;
+  width: 40%;
+  height: 200px;
+  display: block;
+  padding: 5%;
+  margin-top: -5%; }
+
 /*# sourceMappingURL=main.css.map */

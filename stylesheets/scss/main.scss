@@ -81,6 +81,7 @@ nav ul li a {
     background:url(../../assets/imgs/Skills_BG.jpg) no-repeat;
     background-size:cover;
     background-position: center;
+    // background-attachment: fixed;
     padding-bottom:30%;
 }
 
@@ -97,4 +98,46 @@ nav ul li a {
     width:90%;
     max-width:150px;
     padding:2% 0px;
+}
+
+/*>>> Intro About <<<*/
+
+.intro-about {
+    height:$intro-about;
+    background:$blue;
+    padding:$intro-height 0px;
+}
+
+/* First Image */
+.intro-about_img:nth-child(1) {
+    background:url(../../assets/imgs/student-manufacturing.jpg);
+    background-size: cover;
+}
+
+/* Second Image */
+.intro-about_img:nth-child(2) {
+    background:url(../../assets/imgs/student-dental.jpg);
+    background-size:cover;
+}
+
+.intro-about_info {
+    background:#FFF;
+}
+
+#intro-about_left {
+    float:left;
+    width:$intro-width;
+    height:$intro-about;
+    display: block;
+    padding:$intro-height;
+    margin-top:-$intro-height;
+}
+
+#intro-about_right {
+    float:right;
+    width:$intro-width;
+    height:$intro-about;
+    display: block;
+    padding:$intro-height;
+    margin-top:-$intro-height;
 }
