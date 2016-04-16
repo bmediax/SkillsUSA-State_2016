@@ -59,6 +59,14 @@ html, body {
 /*>>> Global Header & Navigation <<<*/
 nav {
   background: #FFF;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); }
+
+#nav-placeholder {
   height: 90px; }
 
 #nav-container {
@@ -116,6 +124,7 @@ nav ul li a {
   background: url(../../assets/imgs/Skills_BG.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding-bottom: 30%; }
 
 #intro-skillsusa {
@@ -238,7 +247,6 @@ nav ul li a {
   height: 150px;
   width: 285px;
   margin-right: 18px;
-  background: #2d2d2d;
   display: inline-block;
   margin-bottom: 15px; }
 
@@ -305,6 +313,38 @@ nav ul li a {
 
 #compete-more {
   background: url(../../assets/intro/view-more.jpg);
+  background-size: cover; }
+
+#compete-1 {
+  background: url(../../assets/gallery/1.jpg);
+  background-size: cover; }
+
+#compete-2 {
+  background: url(../../assets/gallery/2.jpg);
+  background-size: cover; }
+
+#compete-3 {
+  background: url(../../assets/gallery/3.jpg);
+  background-size: cover; }
+
+#compete-4 {
+  background: url(../../assets/gallery/4.jpg);
+  background-size: cover; }
+
+#compete-5 {
+  background: url(../../assets/gallery/5.jpg);
+  background-size: cover; }
+
+#compete-6 {
+  background: url(../../assets/gallery/6.jpg);
+  background-size: cover; }
+
+#compete-7 {
+  background: url(../../assets/gallery/7.jpg);
+  background-size: cover; }
+
+#compete-8 {
+  background: url(../../assets/gallery/8.jpg);
   background-size: cover; }
 
 /*>>> Global Contact US <<<*/
