@@ -44,6 +44,19 @@
 
   .intro-about {
     height: 195px; } }
+@media all and (max-width: 1002px) {
+  .compete-box {
+    width: 438px;
+    height: 200px; }
+
+  .compete-box:nth-child(3n) {
+    margin-right: 18px !important; }
+
+  .compete-box:nth-child(2n) {
+    margin-right: 0px !important; }
+
+  .compete-box p {
+    line-height: 200px !important; } }
 @media all and (max-width: 988px) {
   footer #copyright {
     clear: both;
@@ -52,6 +65,21 @@
 
   footer #champs-btm {
     display: none; } }
+@media all and (max-width: 933px) {
+  .compete-box {
+    width: 95%;
+    height: 200px;
+    display: block;
+    margin-right: 0px !important;
+    padding-right: 5%;
+    margin-bottom: 15px !important;
+    margin: auto; }
+
+  .compete-box:nth-child(3n) {
+    margin-right: 0px !important; }
+
+  .compete-box:nth-child(2n) {
+    margin-right: 0px !important; } }
 @media all and (max-width: 827px) {
   .intro-about_left, .intro-about_right {
     display: block;

@@ -190,6 +190,208 @@ nav ul li a {
     line-height:100px;
 }
 
+/*>>> Competitions <<<*/
+
+#intro-competitions {
+    background:#FFF;
+    height:auto;
+    padding:5% 0px;
+}
+
+#intro-competitions_wrapper {
+    max-width:900px;
+    // padding:0px 5%;
+    height:auto;
+    margin: auto;
+}
+
+#intro-competitions_wrapper h1 {
+    text-align:center;
+    font-family:"Century-bold", sans-serif;
+    color:$black;
+    font-size:30px;
+    padding-bottom:3%;
+}
+
+#intro-competitions_wrapper p {
+    font-family: "circular", sans-serif;
+    text-align: center;
+    color:$gray;
+    font-size:14px;
+    line-height:20px;
+}
+
+#competitions-section {
+    padding-top:30px;
+}
+
+.compete-box {
+    height:150px;
+//    padding:5% 0px;
+    width:$width/3-15px;
+    margin-right:18px;
+    background:$black;
+    display:inline-block;
+    margin-bottom:15px;
+}
+
+.compete-box:nth-child(3n) {
+    margin-right:0px !important;
+}
+
+.compete-box p {
+    font-family: "Century-bold", sans-serif !important;
+    text-align:center;
+    font-size:16px !important;
+    padding:0px;
+    margin:auto;
+    color:#FFF !important;
+    line-height:150px !important;
+    text-shadow:0px 0px 3px rgba(0, 0, 0, 0.8);
+}
+
+.compete-box:last-child {
+    margin-right:0px !important;
+}
+
+/** Compete boxes images */
+#compete-auto {
+    background:url(../../assets/intro/auto.jpg);
+    background-size:cover;
+}
+
+#compete-electric {
+    background:url(../../assets/intro/electric.jpg);
+    background-size:cover;
+}
+
+#compete-health {
+    background:url(../../assets/intro/dental.jpg);
+    background-size:cover;
+}
+
+#compete-manu {
+    background:url(../../assets/intro/manufacturing.jpg);
+    background-size:cover;
+}
+
+#compete-computers {
+    background:url(../../assets/intro/computer-science.jpg);
+    background-size:cover;
+}
+
+#compete-photo {
+    background:url(../../assets/intro/photo.jpg);
+    background-size:cover;
+}
+
+#compete-web {
+    background:url(../../assets/intro/web-design.jpg);
+    background-size:cover;
+}
+
+#compete-video {
+    background:url(../../assets/intro/video.jpg);
+    background-size:cover;
+}
+
+#compete-radio {
+    background:url(../../assets/intro/radio.jpg);
+    background-size:cover;
+}
+
+#compete-arch {
+    background:url(../../assets/intro/architecture.jpg);
+    background-size:cover;
+}
+
+#compete-cons {
+    background:url(../../assets/intro/construction.jpg);
+    background-size:cover;
+}
+
+#compete-more {
+    background:url(../../assets/intro/view-more.jpg);
+    background-size:cover;
+}
+
+/*>>> Global Contact US <<<*/
+#contact-us {
+    background:$white;
+    min-height:442px;
+    padding:5% 0px;
+}
+
+#contact-us_wrapper {
+    max-width:900px;
+    height:auto;
+    margin:auto;
+}
+
+#contact-us_wrapper h1 {
+    font-family:"Century-bold", sans-serif;
+    color:$black;
+    text-align: center;
+    font-size:30px;
+    padding-bottom:4%;
+}
+
+#form {
+    float:left;
+    display:block;
+    width:50%;
+    height:auto;
+}
+
+form input:focus, form textarea {
+    outline:none;
+}
+
+form input[type="submit"] {
+    font-family:"Century", sans-serif;
+    font-size:14px;
+    color:$gray;
+    width:95%;
+    margin-top:10px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+
+    &:hover {
+        background:$blue;
+        color:#fff;
+        cursor: pointer;
+    }
+}
+
+form textarea {
+    width:90%;
+    border:1px solid rgb(230, 230, 230);
+    background:#FFF;
+    font-family:"Century", sans-serif;
+    font-size:14px;
+    padding:4% 0% 4% 5%;
+}
+
+form input {
+    font-family:"Century", sans-serif;
+    font-size:14px;
+    width:90%;
+    border:none;
+    border:1px solid rgb(230, 230, 230);
+    background:#FFF;
+    padding:4% 0% 4% 5%;
+    margin-bottom:10px;
+}
+
+#google-maps {
+    float:right;
+    display:block;
+    width:50%;
+    min-height:390px;
+    height:auto;
+    background:$gray;
+}
 /*>>> Global Footer <<<*/
 
 footer {
@@ -253,125 +455,4 @@ footer #social-media a {
 
 footer #social-media a:last-child {
     margin-right:0px !important;
-}
-
-/*>>> Competitions <<<*/
-
-#intro-competitions {
-    background:#FFF;
-    height:auto;
-    padding:5% 0px;
-}
-
-#intro-competitions_wrapper {
-    max-width:900px;
-    padding:0px 5%;
-    height:auto;
-    margin: auto;
-}
-
-#intro-competitions_wrapper h1 {
-    text-align:center;
-    font-family:"Century-bold", sans-serif;
-    color:$black;
-    font-size:30px;
-    padding-bottom:3%;
-}
-
-#intro-competitions_wrapper p {
-    font-family: "circular", sans-serif;
-    text-align: center;
-    color:$gray;
-    font-size:14px;
-    line-height:20px;
-}
-
-#competitions-section {
-    padding-top:30px;
-}
-
-.compete-box {
-    height:150px;
-//    padding:5% 0px;
-    width:$width/3-15px;
-    margin-right:12px;
-    background:$black;
-    display:inline-block;
-    margin-bottom:12px;
-}
-
-.compete-box p {
-    font-family: "Century-bold", sans-serif !important;
-    text-align:center;
-    font-size:16px !important;
-    padding:0px;
-    margin:auto;
-    color:#FFF !important;
-    line-height:150px !important;
-    text-shadow:0px 0px 3px rgba(0, 0, 0, 0.8);
-}
-
-.compete-box:last-child {
-    margin-right:0px !important;
-}
-
-/** Compete boxes images */
-#compete-auto {
-    background:url(../../assets/imgs/auto.jpg);
-    background-size:cover;
-}
-
-#compete-electric {
-    background:url(../../assets/imgs/electric.jpg);
-    background-size:cover;
-}
-
-#compete-health {
-    background:url(../../assets/imgs/dental.jpg);
-    background-size:cover;
-}
-
-#compete-manu {
-    background:url(../../assets/imgs/manufacturing.jpg);
-    background-size:cover;
-}
-
-#compete-computers {
-    background:url(../../assets/imgs/computers.jpg);
-    background-size:cover;
-}
-
-#compete-photo {
-    background:url(../../assets/imgs/photo.png);
-    background-size:cover;
-}
-
-#compete-web {
-    background:url(../../assets/imgs/webdesign.jpg);
-    background-size:cover;
-}
-
-#compete-video {
-    background:url(../../assets/imgs/video.jpg);
-    background-size:cover;
-}
-
-#compete-radio {
-    background:url(../../assets/imgs/radio.png);
-    background-size:cover;
-}
-
-#compete-arch {
-    background:url(../../assets/imgs/arch.png);
-    background-size:cover;
-}
-
-#compete-cons {
-    background:url(../../assets/imgs/const.png);
-    background-size:cover;
-}
-
-#compete-more {
-    background:url(../../assets/imgs/view.jpg);
-    background-size:cover;
 }

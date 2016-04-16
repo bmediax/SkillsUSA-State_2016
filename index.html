@@ -162,6 +162,33 @@
             </div>
         </div>
     </div>
+    <!-- Global Contact Us -->
+    <div id="contact-us">
+        <div id="contact-us_wrapper">
+            <h1>GET IN TOUCH WITH US</h1>
+            <div id="form">
+                <form action="form.php" method="POST" >
+                    <input type="name" name="name" placeholder="Full Name" /><br>
+                    <input type="email" name="email" placeholder="Email" /><br>
+                    <input type="text" name="phone" placeholder="Phone Number" /><br>
+                    <textarea cols="30" rows="5" placeholder="Message"></textarea>
+                    <input type="submit" />
+                </form>
+            </div>
+            <div id="google-maps">
+
+            </div>
+            <script>
+            function initMap() {
+                var mapDiv = document.getElementById('google-maps');
+                var map = new google.maps.Map(mapDiv, {
+                    center: {lat: 45.5272818, lng: -122.652747},
+                  zoom: 50
+              });
+            }
+            </script>
+        </div>
+    </div>
 
     <!-- Global Footer -->
     <footer>
@@ -171,4 +198,5 @@
             <a href="#">FB</a> <a href="#">Insta</a>
         </span>
     </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 </html>
