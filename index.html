@@ -97,6 +97,8 @@
         </div>
         <div class="intro-about_img intro-about_right" id="intro-picture-1"></div>
     </div>
+
+    <!-- Intro About Section -->
     <div class="intro-about">
         <div class="intro-about_img intro-about_left" id="intro-picture-2"></div>
         <div class="intro-about_info intro-about_right">
@@ -163,14 +165,16 @@
             </div>
         </div>
     </div>
+
     <!-- Global Contact Us -->
     <div id="contact-us">
         <div id="contact-us_wrapper">
             <h1>GET IN TOUCH WITH US</h1>
 
-            <div id="google-maps">
+            <!-- Google Maps Canvas -->
+            <div id="google-maps"></div>
 
-            </div>
+            <!-- Google Maps script requirement -->
             <script>
             function initMap() {
                 var mapDiv = document.getElementById('google-maps');
@@ -180,6 +184,8 @@
               });
             }
             </script>
+
+            <!-- Contact Form -->
             <div id="form">
                 <form action="form.php" method="POST" >
                     <input type="text" name="name" placeholder="Full Name" /><br>
