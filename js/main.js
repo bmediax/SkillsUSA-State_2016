@@ -3,6 +3,8 @@ $(document).ready(function() {
     $("#mobile-nav").click(function() {
         // Slide Toggle Nav ul
         $("nav ul").slideToggle();
+
+        
     });
 });
 

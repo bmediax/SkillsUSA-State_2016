@@ -99,7 +99,8 @@ nav {
 nav ul {
   position: relative;
   float: right;
-  line-height: 90px; }
+  line-height: 90px;
+  z-index: 1000; }
 
 nav ul li {
   display: inline-block; }
@@ -425,44 +426,6 @@ form input {
   height: auto;
   background: #a9acb6; }
 
-/*>>> Global Footer <<<*/
-footer {
-  background: #00538d;
-  height: 150px;
-  padding: 6% 0px;
-  position: relative; }
-
-footer #copyright {
-  color: #00355a;
-  font-family: "century-bold", sans-serif;
-  font-size: 16px;
-  line-height: 150px;
-  margin-left: 5%;
-  float: left; }
-
-footer #champs-btm {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  color: #FFF;
-  background: transparent;
-  border: 2px solid #FFF;
-  padding: 20px 0px;
-  width: 400px;
-  font-family: "circular-bold", sans-serif;
-  text-decoration: none;
-  position: absolute;
-  top: 45px;
-  right: 0;
-  left: 0;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out; }
-  footer #champs-btm:hover {
-    color: #00538d;
-    background: #FFF; }
-
 /*>>> About <<*/
 #about-skillsusa {
   min-height: 280px;
@@ -492,12 +455,53 @@ footer #champs-btm {
     margin: auto;
     display: block; }
 
+/*>>> Global Footer <<<*/
+footer {
+  background: #00538d;
+  height: 150px;
+  padding: 6% 0px;
+  position: relative; }
+
+footer #copyright {
+  color: #FFF;
+  font-family: "century-bold", sans-serif;
+  font-size: 16px;
+  line-height: 150px;
+  margin-left: 5%;
+  float: left; }
+
+footer #champs-btm {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #FFF;
+  background: transparent;
+  border: 2px solid #FFF;
+  padding: 20px 0px;
+  width: 400px;
+  font-family: "circular-bold", sans-serif;
+  text-decoration: none;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  left: 0;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out; }
+  footer #champs-btm:hover {
+    color: #00538d;
+    background: #FFF; }
+
 footer #social-media {
   float: right;
-  line-height: 150px;
   margin-right: 5%; }
 
 footer #social-media a {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  line-height: 172px;
   color: #00355a;
   font-family: "Century-bold", sans-serif;
   text-decoration: none;

@@ -82,6 +82,7 @@ nav ul {
     position:relative;
     float:right;
     line-height:$desktop-nav;
+    z-index:1000;
 }
 
 nav ul li {
@@ -475,49 +476,6 @@ form input {
     height:auto;
     background:$gray;
 }
-/*>>> Global Footer <<<*/
-
-footer {
-    background:$blue;
-    height:150px;
-    padding:6% 0px;
-    position: relative;
-}
-
-footer #copyright {
-    color:darken($blue, 10%);
-    font-family: "century-bold", sans-serif;
-    font-size:16px;
-    line-height: 150px;
-    margin-left:5%;
-    float:left;
-}
-
-footer #champs-btm {
-    display:inline-block;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    color:#FFF;
-    background:transparent;
-    border:2px solid #FFF;
-    padding:20px 0px;
-    width:400px;
-    font-family: "circular-bold", sans-serif;
-    text-decoration: none;
-    position:absolute;
-    top:45px;
-    right:0;
-    left:0;
-    -webkit-transition:all 0.1s ease-in-out;
-    -moz-transition:all 0.1s ease-in-out;
-    -o-transition:all 0.1s ease-in-out;
-
-    &:hover {
-        color:$blue;
-        background:#FFF;
-    }
-}
 
 /*>>> About <<*/
 
@@ -560,13 +518,60 @@ footer #champs-btm {
     }
 }
 
+/*>>> Global Footer <<<*/
+
+footer {
+    background:$blue;
+    height:150px;
+    padding:6% 0px;
+    position: relative;
+}
+
+footer #copyright {
+    color:#FFF;
+    font-family: "century-bold", sans-serif;
+    font-size:16px;
+    line-height: 150px;
+    margin-left:5%;
+    float:left;
+}
+
+footer #champs-btm {
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    color:#FFF;
+    background:transparent;
+    border:2px solid #FFF;
+    padding:20px 0px;
+    width:400px;
+    font-family: "circular-bold", sans-serif;
+    text-decoration: none;
+    position:absolute;
+    top:45px;
+    right:0;
+    left:0;
+    -webkit-transition:all 0.1s ease-in-out;
+    -moz-transition:all 0.1s ease-in-out;
+    -o-transition:all 0.1s ease-in-out;
+
+    &:hover {
+        color:$blue;
+        background:#FFF;
+    }
+}
+
 footer #social-media {
     float:right;
-    line-height:150px;
     margin-right:5%;
 }
 
 footer #social-media a {
+    display:inline-block;
+    height:35px;
+    width:35px;
+    line-height:172px;
     color:darken($blue, 10%);
     font-family:"Century-bold", sans-serif;
     text-decoration: none;
