@@ -6,6 +6,26 @@ html, body {
     background:$white;
 }
 
+#header {
+    min-height:90px;
+    padding:3% 0px;
+    background:$blue;
+
+    h1 {
+        text-align: left;
+        color:#FFF;
+        font-family:"Century-bold", sans-serif;
+        font-size:36px;
+        line-height: 90px;
+        padding-left:5%;
+    }
+}
+
+.header {
+    max-width:900px;
+    margin:auto;
+}
+
 /*>>> Global Header & Navigation <<<*/
 
 nav {
@@ -433,6 +453,47 @@ footer #champs-btm {
     &:hover {
         color:$blue;
         background:#FFF;
+    }
+}
+
+/*>>> About <<*/
+
+#about-skillsusa {
+    min-height:280px;
+    max-width:900px;
+    padding:5% 0px;
+    margin:auto;
+
+    img {
+        float:left;
+        width:60%;
+    }
+
+    h1 {
+        font-family:"Century-bold", sans-serif;
+        font-size:30px;
+        color:$black;
+        margin-bottom:30px;
+    }
+
+    p {
+        color:$gray;
+        font-family:"circular", sans-serif;
+        font-size:13px;
+        line-height:25px;
+    }
+}
+
+#about-descriptions {
+    padding-top:35px;
+}
+
+#calendar {
+    padding:5% 0px;
+
+    iframe {
+        margin:auto;
+        display:block;
     }
 }
 

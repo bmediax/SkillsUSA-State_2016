@@ -38,6 +38,22 @@ html, body {
   margin: auto;
   background: #f0f0f0; }
 
+#header {
+  min-height: 90px;
+  padding: 3% 0px;
+  background: #00538d; }
+  #header h1 {
+    text-align: left;
+    color: #FFF;
+    font-family: "Century-bold", sans-serif;
+    font-size: 36px;
+    line-height: 90px;
+    padding-left: 5%; }
+
+.header {
+  max-width: 900px;
+  margin: auto; }
+
 /*>>> Global Header & Navigation <<<*/
 nav {
   background: #FFF;
@@ -393,6 +409,35 @@ footer #champs-btm {
   footer #champs-btm:hover {
     color: #00538d;
     background: #FFF; }
+
+/*>>> About <<*/
+#about-skillsusa {
+  min-height: 280px;
+  max-width: 900px;
+  padding: 5% 0px;
+  margin: auto; }
+  #about-skillsusa img {
+    float: left;
+    width: 60%; }
+  #about-skillsusa h1 {
+    font-family: "Century-bold", sans-serif;
+    font-size: 30px;
+    color: #2d2d2d;
+    margin-bottom: 30px; }
+  #about-skillsusa p {
+    color: #a9acb6;
+    font-family: "circular", sans-serif;
+    font-size: 13px;
+    line-height: 25px; }
+
+#about-descriptions {
+  padding-top: 35px; }
+
+#calendar {
+  padding: 5% 0px; }
+  #calendar iframe {
+    margin: auto;
+    display: block; }
 
 footer #social-media {
   float: right;
