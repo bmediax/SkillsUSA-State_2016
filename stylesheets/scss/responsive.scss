@@ -138,26 +138,9 @@
     }
 }
 
-@media all and (max-width:805px) {
+@media all and (max-width:870px) {
     #mobile-nav {
         display:block !important;
-    }
-
-    // #intro-competitions {
-    //     padding:0px !important;
-    // }
-
-    #about-skillsusa img {
-        width:90%;
-        margin:auto;
-        clear:both;
-        float:none;
-        display:block;
-    }
-
-    #about-descriptions {
-        margin-left:5%;
-        margin-right:5%;
     }
 
     nav ul {
@@ -182,6 +165,29 @@
             color:#FFF;
             background:$red;
         }
+    }
+}
+
+@media all and (max-width:805px) {
+    #mobile-nav {
+        display:block !important;
+    }
+
+    // #intro-competitions {
+    //     padding:0px !important;
+    // }
+
+    #about-skillsusa img {
+        width:90%;
+        margin:auto;
+        clear:both;
+        float:none;
+        display:block;
+    }
+
+    #about-descriptions {
+        margin-left:5%;
+        margin-right:5%;
     }
 
     #intro {
